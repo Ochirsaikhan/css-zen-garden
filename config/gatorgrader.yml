@@ -1,0 +1,21 @@
+---
+name: CMPSC 302: Basic Styling (lab)
+break: true
+indent: 4
+---
+
+index.html:
+    MatchFileFragment --fragment "TODO" --count 0 --exact --description "[HTML] index.html contains no TODOs"
+
+_template.css:
+    MatchFileRegex --regex "#[a-zA-Z0-9\-_]+\{.*\}" --count 5 --description "[CSS] _template.css styles at least 5 IDs (#selector)"
+    MatchFileRegex --regex "\.[a-zA-Z0-9\-_]+\{.*\}" --count 5 --description "[CSS] _template.css styles at least 5 classes (.selector)"
+    MatchFileFragment --fragment "position" --count 1 --description "[CSS] _template.css uses the position property"
+
+
+ExecuteCommand --command "python config/.w3c.py index.html" --description "[HTML] index.html passes W3C validation"
+ExecuteCommand --command "python config/.wave.py index.html" --description "[ACCESSIBILITY] index.html stylesheets contain no issues with color contrast."
+ExecuteCommand --command "python config/.check.py docs/index.html link 1" --description "[HTML] index.html contains references to all group stylesheets"
+ExecuteCommand --command "python config/.wave.py _template.html" --description "[ACCESSIBILITY] _template.html stylesheet contains no issues with color contrast"
+ExecuteCommand --command "python config/.w3c.py _template.html" --description "[HTML] _template.html passes W3C validation"
+ExecuteCommand --command "python config/.w3c.py _template.css" --description "[CSS] _template.css passes W3C validation"
