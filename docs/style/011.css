@@ -17,9 +17,12 @@ footer {
     /* display: flexbox; */
     order: 2;
     position: absolute;
-    background-color: #0A9396;
+    background-color: #005F73;
     text-align: center;
     width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.2rem;
 }
 
 h3 {
@@ -82,8 +85,9 @@ a:hover {
 }
 
 #zen-intro h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
+
 
 #zen-preamble {
     /* background-color: #BB3E03; */
@@ -105,37 +109,6 @@ a:hover {
     font-family: 'Zen Tokyo Zoo', cursive;
     color: #001219;
     font-size: 3rem;
-}
-
-.sidebar {
-    order: 3;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    /* padding: 2rem; */
-    color: #E9D8A6;
-}
-
-.wrapper {
-    font-family: 'Zen Loop';
-    font-size: 1.8rem;
-}
-
-#design-selection ul li{
-    margin-top: 1.3rem;
-    border-bottom: 1px dotted;
-    padding-bottom: 1.3rem;
-}
-
-#design-archives{
-    margin-top: 80px;
-}
-
-#zen-resources {
-    margin-top: 80px;
-}
-
-#zen-intro h2 {
-    font-size: 40px;
 }
 
 #zen-supporting {
@@ -163,15 +136,51 @@ a:hover {
 }
 
 #zen-requirements {
-    position: absolute;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#design-selection ul li{
+    margin-top: 4rem;
+    border-bottom: 1px dotted;
+    padding-bottom: 3rem;
+}
+
+#design-archives{
+    margin-top: 80px;
+}
+
+#zen-resources {
+    margin-top: 80px;
+}
+
+/* #zen-requirements {
+    position: relative;
     width: 100%;
     text-align: center;
     background-color: #CA6702;
-}
+} */
 
 
 /* Classes */
 
 .page-wrapper {
     display: grid;
+}
+
+.sidebar {
+    order: 3;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* padding: 2rem; */
+    color: #E9D8A6;
+    background-image: url("/Users/ochiroo/Desktop/CMPSC 302 Web Development/cmpsc-302-week-2-lab-port-berners-lee/docs/img/tim_berners_lee.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 0 95%;
+}
+
+.wrapper {
+    font-family: 'Zen Loop';
+    font-size: 1.8rem;
 }
