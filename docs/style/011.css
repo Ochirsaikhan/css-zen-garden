@@ -14,7 +14,7 @@ html {
 }
 
 footer {
-    display: flexbox;
+    /* display: flexbox; */
     order: 2;
     position: absolute;
     background-color: #0A9396;
@@ -57,7 +57,8 @@ a:hover {
 #zen-intro {
     order: 1;
     grid-column: span 2;
-    background-color: #CA6702;
+    background-color: #9B2226;
+    /* background-color: #005F73; */
 }
 
 #zen-intro header {
@@ -68,7 +69,12 @@ a:hover {
 
 #zen-summary {
     text-align: center;
-    font-family: 'Inspiration', cursive;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #E9D8A6;
 }
 
 #zen-intro h1 {
@@ -81,15 +87,31 @@ a:hover {
 
 #zen-preamble {
     /* background-color: #BB3E03; */
+    text-align: left;
+    margin-left: 5rem;
+    position: relative;
     font-family: 'Zen Antique Soft', serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: #E9D8A6;
+    background-image: url("/Users/ochiroo/Desktop/CMPSC 302 Web Development/cmpsc-302-week-2-lab-port-berners-lee/docs/img/avatar_nobg.png");
+    background-size: 40%;
+    background-position: 65vw;
+    background-repeat: no-repeat;
+    padding-right: 40vw;
+
+}
+
+#zen-preamble h3 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: #001219;
+    font-size: 3rem;
 }
 
 .sidebar {
     order: 3;
     margin-left: 2rem;
     margin-right: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     color: #E9D8A6;
 }
 
@@ -113,7 +135,7 @@ a:hover {
 }
 
 #zen-intro h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #zen-supporting {
@@ -121,8 +143,8 @@ a:hover {
     background-color: #E9D8A6;
     color: #001219;
     font-family: 'Zen Loop';
-    font-weight: 400;
-    font-size: 1.8rem;
+    font-weight: 500;
+    font-size: 2.1rem;
 }
 
 #zen-explanation {
