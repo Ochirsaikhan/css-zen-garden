@@ -6,11 +6,150 @@
 
 /* HTML ELEMENTS  */
 
-html {
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Loop&family=Zen+Tokyo+Zoo&display=swap');
 
+html {
+    /* background-image: url('https://insomniac.games/wp-content/uploads/2018/09/Spider-Man_PS4_Selfie_Photo_Mode_LEGAL.jpg'); */
+    background-color: #001219;
+}
+
+footer {
+    display: flexbox;
+    order: 2;
+    position: absolute;
+    background-color: #0A9396;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #94D2BD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BB3E03;
+    /* color: #CA6702; */
 }
 
 /* IDs */
 
+
+/* #zen-supporting {
+    order: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 5%;
+    background-color: bisque;
+
+} */
+
+#zen-intro {
+    order: 1;
+    grid-column: span 2;
+    background-color: #CA6702;
+}
+
+#zen-intro header {
+    text-align: center;
+    /* font-family: 'Inspiration', cursive; */
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+#zen-summary {
+    text-align: center;
+    font-family: 'Inspiration', cursive;
+}
+
+#zen-intro h1 {
+    font-size: 80px;
+}
+
+#zen-intro h2 {
+    font-size: 50px;
+}
+
+#zen-preamble {
+    /* background-color: #BB3E03; */
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 1rem;
+}
+
+.sidebar {
+    order: 3;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    color: #E9D8A6;
+}
+
+.wrapper {
+    font-family: 'Zen Loop';
+    font-size: 1.8rem;
+}
+
+#design-selection ul li{
+    margin-top: 1.3rem;
+    border-bottom: 1px dotted;
+    padding-bottom: 1.3rem;
+}
+
+#design-archives{
+    margin-top: 80px;
+}
+
+#zen-resources {
+    margin-top: 80px;
+}
+
+#zen-intro h2 {
+    font-size: 30px;
+}
+
+#zen-supporting {
+    order: 2;
+    background-color: #E9D8A6;
+    color: #001219;
+    font-family: 'Zen Loop';
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#zen-explanation {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#zen-participation {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#zen-benefits {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#zen-requirements {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #CA6702;
+}
+
+
 /* Classes */
 
+.page-wrapper {
+    display: grid;
+}
