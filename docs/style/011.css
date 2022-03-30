@@ -146,14 +146,6 @@ a:hover {
     padding-bottom: 3rem;
 }
 
-#design-archives{
-    margin-top: 80px;
-}
-
-#zen-resources {
-    margin-top: 80px;
-}
-
 /* #zen-requirements {
     position: relative;
     width: 100%;
@@ -183,4 +175,12 @@ a:hover {
 .wrapper {
     font-family: 'Zen Loop';
     font-size: 1.8rem;
+}
+
+.design-archives {
+    margin-top: 80px;
+}
+
+.zen-resources {
+    margin-top: 80px;
 }
