@@ -97,7 +97,7 @@ a:hover {
     font-family: 'Zen Antique Soft', serif;
     font-size: 1.2rem;
     color: #E9D8A6;
-    background-image: url("/Users/ochiroo/Desktop/CMPSC 302 Web Development/cmpsc-302-week-2-lab-port-berners-lee/docs/img/avatar_nobg.png");
+    background-image: url("../img/avatar_nobg.png");
     background-size: 40%;
     background-position: 65vw;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ a:hover {
     margin-right: 2rem;
     /* padding: 2rem; */
     color: #E9D8A6;
-    background-image: url("/Users/ochiroo/Desktop/CMPSC 302 Web Development/cmpsc-302-week-2-lab-port-berners-lee/docs/img/tim_berners_lee.png");
+    background-image: url("../img/tim_berners_lee.png");
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: 0 95%;
