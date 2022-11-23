@@ -21,6 +21,8 @@ In addition, my design:
 
 ## Screenshots
 
+Click [here](https://ochirsaikhan.github.io/css-zen-garden/) to visit the website.
+
 ![Design Screenshot](docs/img/css-zen.jpg)
 
 ## Lessons Learned
